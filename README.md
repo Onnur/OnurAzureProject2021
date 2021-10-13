@@ -8,23 +8,17 @@ description: "Apps that can be used with as a starting point for some MS Learn M
 urlFragment: "https://github.com/MicrosoftDocs/mslearn-staticwebapp-dotnet"
 ---
 
-# THE LIVE SITE
+# Live sidan
 https://green-pond-069ae3103-1.westeurope.azurestaticapps.net/
 
-## Contents
+## Funktionalitet
 
-The apps written in Blazor WebAssembly with a C# Azure Functions API.
+Serverless appen är skapad i Blazor WebAssembly (Visual Studio 2019) med en C# Azure Functions API samt en Azure Static Web Apps som skapas på Portal.Azure sidan, som I sin tur bygger och hostar appen från en Github repository.  
 
-## Contributing
+Planerad funktionalitet I denna bygg är att visa fram produkter med add, edit, view, detele osv.. Projektet är skapad med en Static Web App template för att få igång en grund. Integrerat API stöd från Azure Functions. 
 
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## Projekt mål
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+1.Klona via Github och köra en befintlig Blazor Wep App lokalt. 
+2.Skapa ett API för appen med Azure Functions. 
+3.Publicera appen och dess API till Azure Static Web Apps. 
